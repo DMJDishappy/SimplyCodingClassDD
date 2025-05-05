@@ -1,0 +1,88 @@
+#red {
+  color: darkred;
+}
+#blue {
+  color: darkblue;
+}
+#yellow {
+  color: gold;
+}
+#green {
+  color: darkgreen;
+}
+#orange {
+  color: darkorange;
+}
+#red-square {
+  border: 4px solid darkred;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  background-color: red;
+}
+#blue-square {
+  border: 4px solid darkblue;
+  width: 400px;
+  height: 200px;
+  display: inline-block;
+  background-color: blue;
+}
+#yellow-square {
+  border: 4px solid gold;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  background-color: yellow;
+}
+#green-square {
+  border: 4px solid darkgreen;
+  width: 400px;
+  height: 200px;
+  display: inline-block;
+  background-color: green;
+}
+#orange-square {
+  border: 4px solid darkorange;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  background-color: orange;
+}
+span {
+  font-style: italic;
+}
+#red-square:hover {
+  border: 4px solid red;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  background-color: darkred;
+}
+#blue-square:hover {
+  border: 4px solid blue;
+  width: 400px;
+  height: 200px;
+  display: inline-block;
+  background-color: darkblue;
+}
+#yellow-square:hover {
+  border: 4px solid yellow;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  background-color: gold;
+}
+#green-square:hover {
+  border: 4px solid green;
+  width: 400px;
+  height: 200px;
+  display: inline-block;
+  background-color: darkgreen;
+}
+#orange-square:hover {
+  border: 4px solid orange;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  background-color: darkorange;
+}

@@ -1,0 +1,120 @@
+<html {height: 100%;}>
+  <head>
+    <title>Project 2: Invite</title>
+    <style>
+      h1 {
+        text-align: center;
+      }
+      h2 {
+        text-align: center;
+      }
+      div {
+        text-align: center;
+      }
+      p {
+        text-align: center;
+      }
+      .bg {
+        /* The image used */
+        background-image: url("/HTML/Project2/assets/background6.png");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+    <body
+      style="background-color: black; color: rgb(210, 195, 150)"
+      {Height
+      100%;}
+      class="bg"
+    >
+      <section>
+        <h1 style="color: rgb(181, 152, 92); font-size: 36">You're Invited</h1>
+        <p style="font-size: 24">to ES1's</p>
+        <h2 style="color: rgb(181, 152, 92); font-size: 36">
+          Murder in Manhattan 1920's Mystery Dinner
+        </h2>
+        <p style="font-size: 24">For Adults Only</p>
+        <p style="font-size: 18">
+          February 21, 2025 - 6:30 - at the
+          <a
+            href="https://www.google.com/maps/place/The+Church+of+Jesus+Christ+of+Latter-day+Saints/@36.294856,-115.2763845,16z/data=!4m15!1m8!3m7!1s0x80c8ecb1a5c35e65:0xfcd13e1612285660!2s8229+High+Meadow+Ave,+Las+Vegas,+NV+89131!3b1!8m2!3d36.2953821!4d-115.2757584!16s%2Fg%2F11c229601d!3m5!1s0x80c8ecb15dd99a6b:0xf080e8b3a3b74c6f!8m2!3d36.2968052!4d-115.2782286!16s%2Fg%2F1v76zyp1?entry=ttu&g_ep=EgoyMDI1MDQyOC4wIKXMDSoASAFQAw%3D%3D"
+          >
+            stake center
+          </a>
+        </p>
+        <p style="font-size: 18">
+          Come play the part, solve the murder, and enjoy dinner and dancing.
+        </p>
+        <p style="font-size: 18">
+          Please RSVP whether you are coming OR NOT with the form below
+        </p>
+      </section>
+      <form style="color: rgb(181, 152, 92); font-size: 18;" action="project2submit.html" method="post">
+        <div style="text-align: center">
+          <input type="text" id="name" name="name" placeholder="First and Last Name" required />
+        </div>
+        <div
+          style="
+            display: inline-block;
+            width: 20%;
+            text-align: right; 
+            margin-left: 20%;
+            background-color: black;
+          "
+        >
+          <h3>Are you planning to attend?</h3>
+          <input type="radio" id="yes" name="attendance" value="Yes" required />
+          <label for="yes">Yes</label><br />
+          <input type="radio" id="no" name="attendance" value="No" required />
+          <label for="no">No</label><br />
+        </div>
+        <div style="display: inline-block; 
+                    width: 20%; 
+                    text-align: left; 
+                    margin-right: 20%;
+                    margin-left: 18%;
+                    background-color: black;
+              "
+        >
+          <h3>Do you want to play a character?</h3>
+          <input type="radio" id="yes" name="character" value="Yes" required />
+          <label for="yes">Yes</label><br />
+          <input type="radio" id="no" name="character" value="No" required />
+          <label for="no">No</label><br />
+        </div>
+        <div style="text-align: center">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+      <div>
+        <img
+          style="height: 3in"
+          src="/HTML/Project2/assets/alittlepartyforsite.png"
+          alt="The text 'a little party never killed nobody' 
+          in an art deco style frame both in gold with a black background"
+        />
+      </div>
+      <footer
+        style="
+          display: inline-block;
+          background-color: rgb(181, 152, 92);
+          width: 100%;
+          height: 0.5in;
+          color: black;
+          text-align: center;
+          font-size: 18;
+        "
+      >
+        <i
+          >for details or more information, contact Lisa Dickson at
+          (***)***-****</i
+        >
+      </footer>
+    </body>
+  </head>
+</html>
