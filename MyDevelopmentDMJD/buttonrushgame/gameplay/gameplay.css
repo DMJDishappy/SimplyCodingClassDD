@@ -1,16 +1,17 @@
 h1 {
   color: rgb(104, 103, 155);
-  font-size: 100;
+  font-size: 100px;
 }
 p {
   color: rgb(151, 152, 189);
-  font-size: 72;
+  font-size: 72px;
 }
 button {
   background-color: rgb(104, 103, 155);
   border: none;
-  padding: 15px 15px;
+  padding: 50px 50px;
   display: inline-block;
+  margin: 15px;
 }
 Button:hover {
   background-color: rgb(151, 152, 189);
