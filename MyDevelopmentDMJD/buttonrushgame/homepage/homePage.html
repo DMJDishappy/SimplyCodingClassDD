@@ -4,14 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="*description of the website*" />
+    <link rel="stylesheet" href="homepage.css" />
     <title></title>
   </head>
   <body>
     <h1>Welcome to Button Smash Rush!</h1>
-    <div>
+    <div id="nickname">
       <p>Nickname: ^Nickname^</p>
     </div>
-    <sidebar>
+    <sidebar id="Scores">
       <h2>Scores</h2>
       <p>Your Best!</p>
       <ol>
@@ -30,12 +31,15 @@
         <li>^Score 5^</li>
       </ol>
     </sidebar>
-    <div>
+    <div id="maincontent">
       <h2>How to Play:</h2>
-      <p>Press start to play, then click as many buttons as you can before time runs out. Good luck!</p>
+      <p>
+        Press start to play, then click as many buttons as you can before time
+        runs out. Good luck!
+      </p>
       <button>Start</button>
     </div>
-    <sidebar>
+    <sidebar id="Leaderboard">
       <h2>Leaderboard</h2>
       <p>Congratulations to:</p>
       <ol>
@@ -46,8 +50,8 @@
         <li>^Name 5: Score 5^</li>
       </ol>
       <h3>Want to be on the leaderboard?</h3>
-      <p>Give us a nickname here (6 characters only):</p>
       <fieldset>
+        <legend>Give us a nickname here (6 characters only):</legend>
         <input type="text" placeholder="Nickname" max-characters:6 />
         <button>Submit</button>
       </fieldset>
