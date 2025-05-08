@@ -1,25 +1,24 @@
 h1 {
-  color: cadetblue;
+  color: rgb(104, 103, 155);
   font-size: 100px;
 }
 p {
-  color: rgb(248,240,251);
+  color: rgb(151, 152, 189);
   font-size: 72px;
 }
 button {
-  background-color: cadetblue;
+  background-color: rgb(104, 103, 155);
   border: none;
   padding: 50px 50px;
   display: inline-block;
   margin: 15px;
 }
 Button:hover {
-  background-color: rgb(248,240,251);
+  background-color: rgb(151, 152, 189);
 }
 button:focus {
   background-color: rgb(51, 43, 112);
 }
 .bg {
-  background-color: darkslategrey
-  text-align: center
+  text-align: center;
 }
