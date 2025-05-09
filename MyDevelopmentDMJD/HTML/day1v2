@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="The Impact and Dangers of Flamingos On Fire" content="flaming flamingos, their dangers, and their impact on our world" />
+    <title>The Impact of Flamingos On Fire</title>
+    <style> 
+      #top1 {
+        color: rgb(192, 5, 43);
+}
+      #top2 {
+        color: rgb(216, 6, 48);
+}
+      #top3 {
+        color: rgb(252, 2, 2);
+}
+      #top4 {
+        color: ;
+}
+      #bot1 {
+        color: rgb(255, 112, 2);
+}
+      #bot2 {
+        color: rgb(255, 145, 0);
+}
+      #bot3 {
+        color: rgb(255, 174, 0);
+}
+      #bot4 {
+        color: rgb(255, 217, 0);
+}
+      .warning {
+        color: red;
+        font-family: "Lucida Console", "Monaco", monospace;
+}
+     .bg {
+        background-color= "ivory"
+        font-family: "Arial", "Helvetica", sans-serif;
+}
+     .heading {
+        font-family: "Times New Roman", "Georgia", serif;
+        text-align: center;
+}
+  </head>
+  <body class="bg">
+    <h1 class="heading"><span id="top1">Flam<span id="top2">ingos <span id="top3">on <span id="top4">Fire</span></h1>
+    <h2 class="heading"><i><span id="bot1">Pretty <span id="bot2">but <span id="bot3">Dange<span id="bot4">rous</span></i></h2> 
+    <img src="C:\Users\dickson.dakota\Desktop\MyDevelopmentDMJD\media\FlamingFlamingo.jpg" class="header">
+    <p>Flaming flamingos cannot be differentiated from a normal flamingo until they set themselves on fire. 
+      The fire does no damage to the flamingo nor other flaming flamingos. 
+      Surprisingly, normal flamingos are also immune to the flames. 
+      <b>Humans are not immune.</b> 
+      Treat flamingos with an abundance of caution and keep your children from approaching them.</p>
+    <div class="warning">
+      <h2>WARNING! USE CAUTION!</h2>
+      <h2><STRONG>Flamingos are especially attracted to shrimp, 
+        which makes it <em>extremely dangerous</em> to have on your person.</STRONG>
+      </h2>
+   </div>
+   <img style="height: 1in;" style="width: 1in;" src="C:\Users\dickson.dakota\Desktop\MyDevelopmentDMJD\media\NoShrimpZone.jpg" float:"right">
+   <p>In the vibrant digital age, the phenomenon of "flaming flamingos" has captured global attention, 
+     symbolizing the fusion of creativity and technology. With over 70% of internet users engaging with video content monthly, 
+     flaming flamingos have become a viral sensation, illustrating the power of digital platforms in content monetization. 
+     These flamboyant birds in animated, fiery hues, have not only captivated audiences but also generated lucrative revenue streams for creators through ad placements, 
+     sponsorships, and merchandise. The rise of flaming flamingos exemplifies the shift from traditional media to digital realms, where creators command their narrative and income. 
+     As conventional outlets struggle to maintain relevance, the flaming flamingo phenomenon underscores a transformative era. 
+     Looking ahead, these dynamic platforms will continue to redefine storytelling, empowering creators to transcend boundaries and reshape the media landscape with innovative flair.</p>
+  </body>
+</html>
