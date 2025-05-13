@@ -1,38 +1,43 @@
 #maincontent {
   text-align: center;
-  display: inline-block;
   size: 50%;
-  margin: 5%;
-  color: rgb(166, 206, 208);
+  margin: auto;
+  color: #97dffc;
 }
 #nickname {
   text-align: center;
-  color: cadetblue;
+  color: #858ae3;
 }
-#scores {
+#bestscores {
   text-align: left;
-  display: inline-block;
-  size: 20%;
-  color: cadetblue;
-  margin-left: 15px;
+  size: 10%;
+  color: #613dc1;
+  margin: auto;
+}
+#recentscores {
+  text-align: left;
+  size: 10%;
+  color: #613dc1;
+  margin: auto;
 }
 #leaderboard {
   text-align: left;
-  display: inline-block;
   size: 20%;
-  color: cadetblue;
-  margin-right: 15px;
+  color: #613dc1;
+  margin: auto;
 }
 h1 {
   text-align: center;
-  color: rgb(166, 206, 208);
+  color: #97dffc;
 }
 .bg {
-  background-color: darkslategrey;
+  background-color: #2c0735;
 }
 button {
-  color: darkslategrey;
-  background-color: cadetblue;
+  color: #4e148c;
+  background-color: #858ae3;
+  border-color: #4e148c;
+  border-width: 5px;
 }
 #submit {
   padding: 2.5px 10px;
@@ -40,4 +45,8 @@ button {
 #start {
   padding: 10px 25px;
   font-size: 25px;
+}
+.flex-container {
+  display: flex;
+  margin: auto;
 }
