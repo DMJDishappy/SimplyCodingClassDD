@@ -1,24 +1,25 @@
 h1 {
-  color: rgb(104, 103, 155);
+  color: #97dffc;
   font-size: 100px;
 }
 p {
-  color: rgb(151, 152, 189);
+  color: #4e148c;
   font-size: 72px;
 }
 button {
-  background-color: rgb(104, 103, 155);
+  background-color: #858ae3;
   border: none;
   padding: 50px 50px;
   display: inline-block;
   margin: 15px;
 }
 Button:hover {
-  background-color: rgb(151, 152, 189);
+  background-color: #613dc1;
 }
 button:focus {
-  background-color: rgb(51, 43, 112);
+  background-color: #97dffc;
 }
 .bg {
   text-align: center;
+  background-color: #2c0735;
 }
