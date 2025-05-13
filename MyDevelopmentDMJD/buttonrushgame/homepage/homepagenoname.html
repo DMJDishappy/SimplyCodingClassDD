@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="*description of the website*" />
+    <link rel="stylesheet" href="homepage.css" />
+    <title></title>
+  </head>
+  <body class="bg">
+    <header>
+      <h1>Welcome to Button Smash Rush!</h1>
+    </header>
+    <div class="flex-container">
+      <sidebar id="bestscores">
+        <h2>Scores</h2>
+        <p>Your Best!</p>
+        <ol>
+          <li>^Score 1^</li>
+          <li>^Score 2^</li>
+          <li>^Score 3^</li>
+          <li>^Score 4^</li>
+          <li>^Score 5^</li>
+        </ol>
+      </sidebar>
+      <sidebar id="recentscores">
+        <br /><br /><br />
+        <p>Recent Scores:</p>
+        <ol>
+          <li>^Score 1^</li>
+          <li>^Score 2^</li>
+          <li>^Score 3^</li>
+          <li>^Score 4^</li>
+          <li>^Score 5^</li>
+        </ol>
+      </sidebar>
+      <div id="maincontent">
+        <h2>How to Play:</h2>
+        <p>
+          Press start to play, then click as many buttons as you can before time
+          runs out. Good luck!
+        </p>
+        <button type="button" id="start">Start</button>
+      </div>
+      <sidebar id="leaderboard">
+        <br /><br /><br /><br />
+        <h2>Leaderboard</h2>
+        <p>Congratulations to:</p>
+        <ol>
+          <li>^Name 1: Score 1^</li>
+          <li>^Name 2: Score 2^</li>
+          <li>^Name 3: Score 3^</li>
+          <li>^Name 4: Score 4^</li>
+          <li>^Name 5: Score 5^</li>
+        </ol>
+        <h3>Want to be on the leaderboard?</h3>
+        <p>Submit your 6 character nickname here!</p>
+        <form>
+          <input
+            type="text"
+            placeholder="Nickname"
+            max-characters:6
+            name="Nickname"
+          />
+          <button type="submit" id="Submit" name="Nickname">Submit</button>
+        </form>
+      </sidebar>
+    </div>
+  </body>
+</html>
