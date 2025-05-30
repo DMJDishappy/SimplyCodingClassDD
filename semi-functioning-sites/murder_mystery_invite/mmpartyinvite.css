@@ -1,0 +1,51 @@
+.bg {
+  background-image: url("/HTML/Project2/assets/background4.avif");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #a3835d;
+  font-size: 16px;
+  text-align: center;
+}
+footer {
+  display: inline-block;
+  background-color: #a3835d;
+  width: 100%;
+  height: 0.5in;
+  color: black;
+  text-align: center;
+  font-size: 18;
+  font-style: italic;
+  font-family: limelight, sans-serif;
+}
+#attend {
+  text-align: right;
+  margin-left: 20%;
+}
+#character {
+  text-align: left;
+  margin-right: 20%;
+  margin-left: 18%;
+}
+.form {
+  background-color: #181818;
+  width: 20%;
+  display: inline-block;
+  color: #c6ab80;
+  font-size: 1.25rem;
+  font-family: megrim, sans-serif;
+}
+.main {
+  font-size: 1.25rem;
+  font-family: Limelight, sans-serif;
+}
+.heading1 {
+  font-family: "megrim", serif;
+  font-size: 1.75rem;
+  color: #c6ab80;
+}
+.heading2 {
+  font-family: "fascinate inline", serif;
+  font-size: 1.5rem;
+}

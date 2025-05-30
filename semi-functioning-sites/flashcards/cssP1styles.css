@@ -1,0 +1,81 @@
+#red-square {
+  border: 4px solid darkred;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  background-color: red;
+  color: red;
+}
+#blue-square {
+  border: 4px solid darkblue;
+  width: 300px;
+  height: 200px;
+  display: inline-block;
+  background-color: blue;
+  color: blue;
+}
+#yellow-square {
+  border: 4px solid gold;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  background-color: yellow;
+  color: yellow;
+}
+#green-square {
+  border: 4px solid rgb(1, 82, 1);
+  width: 300px;
+  height: 200px;
+  display: inline-block;
+  background-color: green;
+  color: green;
+}
+#orange-square {
+  border: 4px solid rgb(213, 118, 3);
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  background-color: orange;
+  color: orange;
+}
+#red-square:hover {
+  border: 4px solid red;
+  width: 300px;
+  height: 200px;
+  display: inline-block;
+  background-color: darkred;
+}
+#blue-square:hover {
+  border: 4px solid blue;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  background-color: darkblue;
+}
+#yellow-square:hover {
+  border: 4px solid yellow;
+  width: 300px;
+  height: 200px;
+  display: inline-block;
+  background-color: gold;
+}
+#green-square:hover {
+  border: 4px solid green;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  background-color: rgb(1, 82, 1);
+}
+#orange-square:hover {
+  border: 4px solid orange;
+  width: 300px;
+  height: 200px;
+  display: inline-block;
+  background-color: rgb(213, 118, 3);
+}
+.card {
+  font-size: 32px;
+}
+.color-title {
+  font-size: 20px;
+}

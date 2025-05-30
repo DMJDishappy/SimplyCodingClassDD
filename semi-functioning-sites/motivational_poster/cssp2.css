@@ -1,0 +1,19 @@
+.poster {
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+  width: 900px;
+  height: 1000px;
+  margin: auto;
+  border: 20px double #fff;
+  padding: 100px;
+}
+img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 10px solid #fff;
+  height: 500px;
+}

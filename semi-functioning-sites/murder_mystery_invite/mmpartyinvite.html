@@ -1,0 +1,70 @@
+<html {height: 100%;}>
+  <head>
+    <title>Project 2: Invite</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="mmpartyinvite.css" />
+    <link 
+      href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Limelight&family=Megrim&display=swap" 
+      rel="stylesheet" 
+    />
+  </head>
+    <body
+      class="bg"
+    >
+      <section>
+        <h1 class="heading1">You're Invited</h1>
+        <p class="heading2">to ES1's</p>
+        <h2 class="heading1">
+          Murder in Manhattan 1920's Mystery Dinner
+        </h2>
+        <p class="heading2">For Adults Only</p>
+        <p class="main">
+          February 21, 2025 - 6:30 - at the stake center
+        </p>
+        <p class="main">
+          Come play the part, solve the murder, and enjoy dinner and dancing.
+        </p>
+        <p class="main">
+          Please RSVP whether you are coming OR NOT with the form below
+        </p>
+      </section>
+      <form action="project2submit.html" method="post">
+        <div style="text-align: center">
+          <input type="text" id="name" name="name" placeholder="First and Last Name" required />
+        </div>
+        <div class="form" id="attend">
+          <h3>Are you planning to attend?</h3>
+          <input type="radio" id="yes" name="attendance" value="Yes" required />
+          <label for="yes">Yes</label><br />
+          <input type="radio" id="no" name="attendance" value="No" required />
+          <label for="no">No</label><br />
+        </div>
+        <div class="form" id="character">
+          <h3>Do you want to play a character?</h3>
+          <input type="radio" id="yes" name="character" value="Yes" required />
+          <label for="yes">Yes</label><br />
+          <input type="radio" id="no" name="character" value="No" required />
+          <label for="no">No</label><br />
+        </div>
+        <div style="text-align: center">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+      <div>
+        <img
+          style="height: 3in"
+          src="/HTML/Project2/assets/alittlepartyforsite.png"
+          alt="The text 'a little party never killed nobody' 
+          in an art deco style frame both in gold with a black background"
+        />
+      </div>
+      <footer>
+        <p>
+          for details or more information, contact Lisa Dickson at (***)***-****
+          or Marlees Hardy at (***)***-****
+        </p>
+      </footer>
+    </body>
+  </head>
+</html>
